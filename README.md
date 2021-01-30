@@ -9,5 +9,5 @@ JDBC.
 ![](https://github.com/prithwish-thinkitive/Registration_Login/blob/main/Screenshot%20from%202021-01-30%2019-30-26.png)
 If the user hit the View Employee link before registering then this page will appear..
 ![](https://github.com/prithwish-thinkitive/Registration_Login/blob/main/Screenshot%20from%202021-01-30%2019-31-17.png)
-Once the user register(new user)  or login(olg user) then he/she can view the Employee Detail page.
+Once the user register(new user)  or login(old user) then he/she can view the Employee Detail page.
 ![](https://github.com/prithwish-thinkitive/Registration_Login/blob/main/Screenshot%20from%202021-01-30%2019-31-52.png)
