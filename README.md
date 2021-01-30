@@ -6,4 +6,4 @@ CSS,
 Servlet,
 Http Session,
 JDBC.
-![](Screenshot from 2021-01-30 19-30-26.png)
+![](https://github.com/prithwish-thinkitive/Registration_Login/blob/main/Screenshot%20from%202021-01-30%2019-30-26.png)
