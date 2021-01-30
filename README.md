@@ -6,3 +6,4 @@ CSS,
 Servlet,
 Http Session,
 JDBC.
+![](Screenshot from 2021-01-30 19-30-26.png)
