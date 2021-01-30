@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   	<style>
+    	body{
+    		background-image: url("https://comrad.co.nz/wp-content/uploads/2019/08/Contact-form-background.jpg");
+    		background-repeat: no-repeat;
+		}
+		.form{
+    		text-align: center;
+    		color: blanchedalmond;
+		}
+		.table{
+    		background-color: rgba(0, 0, 0, 0.5);
+    		border-radius: 25px;
+    		margin-left: auto;
+    		margin-right: auto;
+    		margin-top: 100px;
+    		box-shadow: 10px 10px rgb(48, 46, 46)
+		}
+		.submit{
+    		position: absolute;
+    		color: red;
+		}
+    </style>
+</head>
+<body>
+	<a href="ShowDetails" style='color:red'>View Employees</a>
+    <div class="container">
+        <div class="form">
+            <form action="Registration" method="post">
+                <h1>Registration Form</h1>
+                <table class="table" cellspacing="20px" cellpadding="20px">
+                    
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" placeholder="Enter Name" required name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" placeholder="example@gmail.com" required name="email"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" placeholder="Enter Your password" required name="password"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>City</td>
+                        <td>
+                        	<select name="city">
+                        		<option>Kolkata</option>
+                        		<option>Mumbai</option>
+                        		<option>Pune</option>
+                        		<option>Delhi</option>
+                        		<option>Bangalore</option>
+                        	</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td>
+                        	<select name="country">
+                        		<option>India</option>
+                        		<option>Canada</option>
+                        		<option>USA</option>
+                        		<option>Russia</option>
+                        		<option>Bangladesh</option>
+                        	</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td class="submit"><input type="submit" value="Register" name="submit"></td>
+                    </tr>
+                </table>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
